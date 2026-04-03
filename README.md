@@ -1,4 +1,4 @@
-# Flux-Gurad
+# Flux-Guard
 Flux-Guard: Flow-Guided Adversarial Face Editing for Identity Privacy Protection
 ![](./FLUX_Guard/src/image.PNG)
 # Abstract
@@ -11,5 +11,5 @@ Download the weights for victim models from [here](https://drive.google.com/file
 ## Run the code
 
 ```bash
-python runfluxguard.py
+python Flux-Guard/src/runfluxguard.py
 ```
