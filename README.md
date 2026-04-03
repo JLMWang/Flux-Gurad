@@ -8,6 +8,7 @@ Extensive experiments demonstrate that Flux-Guard supports face editing while si
 
 ## Prepare model checkpoints
 Download the weights for victim models from [here](https://drive.google.com/file/d/19_Y0jR789BGciogjjoGtWNEv-5QBiCB7/view) and extract them to `./models`.
+Download the Flux model from [here](https://huggingface.co/black-forest-labs/FLUX.1-dev)
 ## Run the code
 
 ```bash
