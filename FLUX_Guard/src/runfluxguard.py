@@ -610,14 +610,14 @@ if __name__ == "__main__":
 
     parser.add_argument("--name", default="flux-dev", type=str)
 
-    parser.add_argument("--source_img_folder", default="/share/w/Newcele/target4", type=str)
+    parser.add_argument("--source_img_folder", default=" ", type=str)
     parser.add_argument("--adv_img_folder", default="/share/w/target", type=str)  # 含4张对抗图的文件夹
     parser.add_argument("--adv_img_index", type=int, default=3, help="从对抗文件夹选第几张（0-3，按名称自然排序）")
     parser.add_argument("--source_prompt", default="A person", type=str)
     parser.add_argument("--target_prompt", default="A person wearing red lipstick and red-purple hair", type=str)
 
     parser.add_argument("--feature_path", default="feature", type=str)
-    parser.add_argument("--output_dir", default="/share/w/ouroutput/xiaorongid=0.2/ir152/target4", type=str)
+    parser.add_argument("--output_dir", default=" ", type=str)
     parser.add_argument("--guidance", type=float, default=5.5)
     parser.add_argument("--num_steps", type=int, default=25)
     parser.add_argument("--attack_start_step", type=int, default=20)
