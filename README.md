@@ -5,7 +5,7 @@ The widespread deployment of face recognition (FR) systems exposes personal imag
 
 Extensive experiments demonstrate that Flux-Guard supports face editing while significantly improving attack success rates against cross-domain face recognition models on the CelebA-HQ and LADN datasets. Furthermore, evaluation results for commercial APIs have confirmed its effectiveness in real-world applications. 
 
-Download the weights for victim models from [here](https://drive.google.com/file/d/19_Y0jR789BGciogjjoGtWNEv-5QBiCB7/view) and extract them to `.models`.
+Download the weights for victim models from [here](https://drive.google.com/file/d/19_Y0jR789BGciogjjoGtWNEv-5QBiCB7/view) and extract them to `./models`.
 ## Run the code
 
 ```bash
